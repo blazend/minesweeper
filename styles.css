@@ -1,0 +1,30 @@
+#gameContainer {
+  display: grid;
+}
+.tiles {
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+}
+
+
+
+.covered {
+  background-color: gray;
+  color: transparent;
+}
+.uncovered {
+  background-color: white;
+  color: black;
+}
+
+.mines {
+  background-color: red;
+  
+  color: red;
+}
+
+.flagged {
+  background-color: yellow;
+  content: "🚩";
+}
